@@ -1,0 +1,8 @@
+1000 5 2
+1491 Withdraw 54378
+Query 15059 20780
+3409 Deposit 2243
+10032 Withdraw 28293
+19230 Deposit 71460
+Query 8281 20696
+22103 Deposit 2411
