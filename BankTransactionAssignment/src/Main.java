@@ -7,7 +7,7 @@ public class Main {
         int choice = sc.nextInt();
 
         String inputFileName = "input_" + choice + ".txt";
-        String outputFilename = "output_" + choice + ".txt";
+        String outputFilename = "data/output_" + choice + ".txt";
 
         InputHandler inputHandler = new InputHandler(inputFileName);
         inputHandler.readInputFile();
