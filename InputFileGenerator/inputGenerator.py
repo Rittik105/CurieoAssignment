@@ -1,9 +1,9 @@
 import random
 
-initial_reserve = 1000
-n_transactions = 50
-n_queries = 5
-task_type = 2
+initial_reserve = 5000
+n_transactions = 500000
+n_queries = 100000
+task_type = 1
 
 def generate_inputs():
     file = open("input.txt", "w")

@@ -86,7 +86,9 @@ public class Bank {
             }
         }
 
-        return transactions.get(endIndex).nDeclined() - currentDeclined;
+        int newApproved = transactions.get(endIndex).nDeclined() - currentDeclined;
+
+        return Math.max(newApproved, 0);
     }
 
     private int findStartIndex(List<Transaction> transactions, BigDecimal time) {
